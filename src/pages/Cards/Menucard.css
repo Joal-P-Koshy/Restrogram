@@ -1,0 +1,60 @@
+.card{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid white; 
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px ; 
+}
+
+.food-img{
+    width: 150px;
+    height: 150px;
+}
+
+.food-name{
+    margin-top: 10px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.add-btn{
+    width: 55px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 179, 0);
+}
+
+.add-btn:hover{
+    background-color: green;
+    transition: all 0.4s ease;
+    color: white;
+}
+
+@media (max-width:600px){
+    .card{
+        width: 100px;
+        height: 150px;
+    }
+
+    .food-img{
+        width: 75px;
+        height: 75px;
+        margin-top: -15px;
+    }
+
+    .food-name, .price{
+        font-size: 10px;
+        margin-top: 0;
+    }
+}

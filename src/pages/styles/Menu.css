@@ -1,0 +1,32 @@
+.menu-container {
+    padding: 70px;
+    color: white;
+}
+
+.sec-spl {
+    background: transparent;
+    backdrop-filter: blur(6px);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sections .heading {
+    text-align: center;
+}
+
+.sections .scrollable {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width:600px){
+    .menu-container{
+        padding: 20px;
+    }
+}
